@@ -4,6 +4,9 @@
   overflow: hidden;
   border: 3px solid red;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 .Card .Title{
   padding: 5px 0;
@@ -11,6 +14,7 @@
   justify-content: center;
 }
 .Card .Content {
+  flex-grow: 1;
   background-color: white;
   color: black;
   padding: 10px;
