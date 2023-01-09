@@ -15,7 +15,7 @@ export default function App(){
 
       <div className="Cards">
         <Card titulo="#5 - Componente com Filhos" color="#ffcc5c ">
-          <Aleatorio min={1} max={60}/>
+          <Familia sobrenome="Ferreira"/>
         </Card>
 
         <Card titulo="#4 - Desafio Aleatório" color="#96ceb4 ">
