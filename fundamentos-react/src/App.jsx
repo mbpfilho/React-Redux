@@ -22,9 +22,10 @@ export default function App(){
         <Card titulo="#8 - Renderizacao Condicional" color="#96ceb4 ">
           <ParOuImpar numero={3}></ParOuImpar>
           <UsuarioInfo usuario={{nome:"Fernando"}}></UsuarioInfo>
-          <UsuarioInfo usuario={{email:"fer@nando.com"}}></UsuarioInfo>
           <UsuarioInfo usuario={{}}></UsuarioInfo>
-          <UsuarioInfo></UsuarioInfo>
+          {/* <UsuarioInfo usuario={{email:"fer@nando.com"}}></UsuarioInfo>
+          <UsuarioInfo usuario={{}}></UsuarioInfo>
+          <UsuarioInfo></UsuarioInfo> */}
         </Card>
 
         <Card titulo="#7 - Desafio Repeticao" color="#ff6f69 ">
