@@ -24,7 +24,7 @@ export default function App(){
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
-        <Card titulo="#13 - Mega (desafio)" color="#ffcc5c ">
+        <Card titulo="#13 - Mega (desafio)" color="#ff6f69 ">
           <Mega />
         </Card>
 
